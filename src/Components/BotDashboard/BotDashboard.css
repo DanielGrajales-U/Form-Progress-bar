@@ -1,0 +1,56 @@
+.bot-dashboard{
+    width: 400px;
+    background-color: #5e5555be;
+}
+
+.bot-dashboard h1{
+    text-align: center;
+    padding: 20px;
+    background-color: #330f55;
+    color: #fff;
+    margin: 0;
+}
+
+.bot-dashboard .list-items{
+    margin-top: 40px;
+}
+
+.list-items .item-dashboard{
+    list-style: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 20px;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.list-items .item-dashboard:hover{
+    background-color: hsla(271, 17%, 50%, 0.596);
+}
+
+.item-dashboard a{
+    text-decoration: none;
+    color: #330f55
+}
+
+
+.progress-loader {
+	top: 80%;
+	left: 20%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	background: hsla(271, 17%, 50%, 0.596);
+	height: 15px;
+	border-radius: 7px;
+	overflow: hidden;
+}
+  
+.progress {
+  width: 0%;
+  height: 15px;
+  border-radius: 7px;
+  background: #330f55;
+  transition: 0.5s;
+  }
+  

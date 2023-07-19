@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000e1;
+}
+
+.btn{
+  border: none;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #330f55;
+  font-weight: 800;
+  cursor: pointer;
+}

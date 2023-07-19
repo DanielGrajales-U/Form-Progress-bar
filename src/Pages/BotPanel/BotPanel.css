@@ -1,0 +1,10 @@
+.bot-panel{
+    display: flex;
+    background-color: #cac2c2e1;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    border: 1px solid #6455557a;
+    border-radius: 15px;
+    overflow: hidden;
+}
