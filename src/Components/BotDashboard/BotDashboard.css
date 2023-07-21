@@ -24,13 +24,11 @@
     transition: all .3s ease-in-out;
 }
 
-.list-items .item-dashboard:hover{
-    background-color: hsla(271, 17%, 50%, 0.596);
-}
 
-.item-dashboard a{
+
+.item-dashboard p{
     text-decoration: none;
-    color: #330f55
+    color: hsla(0, 0%, 0%, 0.466);
 }
 
 

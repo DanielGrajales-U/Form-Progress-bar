@@ -6,7 +6,7 @@ export default function BotMeta() {
   return (
     <div>
         <Link to={'/services'} className='btn'>Volver</Link>
-        <Link onClick={()=>progressBarFunction(25)} className='btn'>CrearBot</Link>
+        <Link onClick={()=>progressBarFunction()} className='btn'>CrearBot</Link>
     </div>
   )
 }

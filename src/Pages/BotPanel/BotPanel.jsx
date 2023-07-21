@@ -1,16 +1,19 @@
 import React from 'react'
-import { Outlet } from 'react-router'
 import BotDashboard from '../../Components/BotDashboard/BotDashboard'
 
 import './BotPanel.css'
+import ViewContent from '../../Components/BotPanel/ViewContent'
+import { ViewPanelProvider } from '../../Context/ViewPanel'
 
 export default function BotPanel() {
   return (
     <React.Fragment >
+      <ViewPanelProvider>
         <div className='bot-panel'> 
             <BotDashboard />
-            <Outlet />
+            <ViewContent/>
         </div>
+      </ViewPanelProvider>
     </React.Fragment>
   )
 }
