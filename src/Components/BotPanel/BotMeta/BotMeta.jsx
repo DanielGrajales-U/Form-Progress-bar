@@ -1,12 +1,15 @@
 import './BotMeta.css'
-import { progressBarFunction } from '../../BotDashboard/ProgressBar'
-import { Link } from 'react-router-dom'
+import { itemsBotPanel } from '../../../utilities/progressBar'
+import BotPanelHook from '../../../Hooks/BotPanelHook'
 
 export default function BotMeta() {
+  const {BOT_SERVICE} = itemsBotPanel
+  const {backProcess} = BotPanelHook()
+
   return (
     <div>
-        <Link to={'/services'} className='btn'>Volver</Link>
-        <Link onClick={()=>progressBarFunction()} className='btn'>CrearBot</Link>
+        <button onClick={()=>backProcess(BOT_SERVICE)} className='btn'>Volver</button>
+        <button  className='btn'>CrearBot</button>
     </div>
   )
 }
