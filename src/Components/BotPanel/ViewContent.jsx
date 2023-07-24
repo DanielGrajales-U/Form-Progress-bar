@@ -12,8 +12,6 @@ export default function ViewContent() {
   const {PROFILE, PERSONALITY, BOT_SERVICE, BOT_META} = itemsBotPanel
 
   const {viewPanel} = useContext(ViewPanelContext)
-    
- console.log(viewPanel)
 
   if(viewPanel === PROFILE) return <Profile />
   if(viewPanel === PERSONALITY) return <Personality />

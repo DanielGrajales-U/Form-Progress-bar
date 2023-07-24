@@ -1,22 +1,18 @@
 export const items = [
     {
         id:1,
-        label: 'Profile',
-        path: '/'
+        label: 'Profile'
     },
     {
         id:2,
-        label: 'Personality',
-        path: '/personality'
+        label: 'Personality'
     },
     {
         id:3,
-        label: 'Services',
-        path: '/services'
+        label: 'Services'
     },
     {
         id:4,
-        label: 'Meta',
-        path: '/meta'
+        label: 'Meta'
     }
 ]

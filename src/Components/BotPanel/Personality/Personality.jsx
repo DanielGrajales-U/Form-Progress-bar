@@ -9,7 +9,7 @@ export default function Personality() {
   return (
     <div>
         <button onClick={()=>backProcess(PROFILE)} className='btn'>Volver</button>
-        <button onClick={()=>nextProcess(BOT_SERVICE)} className='btn'>siguiente</button>
+        <button onClick={()=>nextProcess(BOT_SERVICE, 50)} className='btn'>siguiente</button>
     </div>
   )
 }

@@ -1,11 +1,12 @@
 const items = 4
 
-export function progressBarFunction(){
+export function progressBarFunction(maxPercent){
     const progressBar = document.querySelector('.progress')
     const actualWidth = parseInt(progressBar.clientWidth)
     const percent = 100 / items
     
     const updateProgress = percent + actualWidth / 2
+    console.log(actualWidth)
 
-    progressBar.clientWidth <= 200 ? progressBar.style.width = `${updateProgress}%` : null
+    progressBar.clientWidth <= maxPercent ? progressBar.style.width = `${updateProgress}%` : null
 }

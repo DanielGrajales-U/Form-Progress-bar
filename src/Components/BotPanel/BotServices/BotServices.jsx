@@ -8,7 +8,7 @@ export default function BotServices() {
   return (
     <div>
         <button onClick={()=>backProcess(PERSONALITY)} className='btn'>Volver</button>
-        <button onClick={()=>nextProcess(BOT_META)} className='btn'>siguiente</button>
+        <button onClick={()=>nextProcess(BOT_META, 100)} className='btn'>siguiente</button>
     </div>
   )
 }

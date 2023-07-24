@@ -8,7 +8,7 @@ export default function Profile() {
 
   return (
     <div>
-        <button onClick={()=> nextProcess(PERSONALITY)} className='btn'>siguiente</button>
+        <button onClick={()=> nextProcess(PERSONALITY, 25)} className='btn'>siguiente</button>
     </div>
   )
 }

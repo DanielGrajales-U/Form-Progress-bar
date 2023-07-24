@@ -31,6 +31,15 @@
     color: hsla(0, 0%, 0%, 0.466);
 }
 
+.active{
+    background-color:#B6AFAF;
+}
+
+.active p{
+    color: #330f55;
+    font-weight: 800;
+}
+
 
 .progress-loader {
 	top: 80%;
